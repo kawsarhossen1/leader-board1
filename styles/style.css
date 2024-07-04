@@ -1,6 +1,58 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* nav bar */
+.menu {
+    display: flex;
+    align-items: center;
+    background-color: #562EFF;
+    height: 94px;
+    justify-content: space-between;
+}
+
+.menu-idea {
+    display: flex;
+    margin-left: 50px;
+
+}
+
+.menu h3 {
+    margin-left: 10px;
+    color: #FFFFFF;
+    width: 54px;
+    height: 36px;
+}
+
+.menu-logo img {
+    margin-top: 10px;
+    width: 40px;
+    height: 51px;
+}
+
+.menu-bar {
+    display: flex;
+    margin-right: 100px;
+
+}
+
+.menu-item {
+    margin-left: 35px;
+    padding-bottom: 50px;
+    color: #FFFFFF;
+    width: 48px;
+    height: 24px;
+}
+
+.menu-item h3 {
+    font-size: 16px;
+    padding-top: 9px;
+    margin-right: 80px;
+}
+
+.menu-item img {
+    margin-left: 15px;
+    padding-top: 14px;
+}
 
 /* common styles or utilities */
 body {
@@ -86,14 +138,14 @@ hr {
 }
 
 .blog-author {
-    color: #9F9F9F;
+    color: #9f9f9f;
     font-size: 16px;
 }
 
 .blog-author a {
     text-decoration: none;
     font-size: 16px;
-    columns: #562EFF;
+    color: #562EFF;
 }
 
 /* courses styles */
@@ -137,10 +189,29 @@ hr {
     color: #FF4A60;
 }
 
+span {
+    color: #A2A2A2;
+}
+
+/* footer sections */
+
+footer {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 25px;
+    margin-top: 15px;
+}
+
+.footer-year {
+    color: #3002ff;
+}
+
 /* Media Queries */
 
 /* Mobile devices */
 @media only screen and (max-width:688px) {
+
     .container {
         width: 100%;
     }
